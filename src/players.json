@@ -1,0 +1,239 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "gamertag": "Jan Lehmann Wilhelm",
+      "realName": "Jan",
+      "position": "CAM",
+      "jerseyNumber": 10,
+      "avatar": "jan",
+      "slogan": "The Swiss Miss 🇨🇭",
+      "knownFor": "Killing longshots on impact and losing possession after kickoff flair attempts",
+      "funnyStats": {
+        "Passing": "5/5 🧠 (assist machine for Hank)",
+        "Dribbling": "3/5 (clean sometimes)",
+        "Skill Moves": "0/5 (don't even try)",
+        "Shooting": "2/5 (only scores when morale is dead)",
+        "Defending": "1/5 (vibes only)",
+        "Physical": "3/5 (ping gives him superhuman lag strength)",
+        "Flair": "4/5 (confidence unmatched, results questionable)"
+      },
+      "personality": "A woman-built midfielder with the physique of Alisha Lehmann and the passing vision of prime De Bruyne — if De Bruyne played with 300 ping and a broken right analog stick. Still somehow the team's lifeline when everything's collapsing.",
+      "signature": "The laggy kickoff skill move into immediate turnover"
+    },
+    {
+      "id": 2,
+      "gamertag": "Hank The Tank",
+      "realName": "Hank",
+      "position": "ST",
+      "jerseyNumber": 9,
+      "avatar": "hank",
+      "slogan": "The Rager 🔥",
+      "knownFor": "Either thunderous finishes or chair-threatening misses",
+      "funnyStats": {
+        "Pace": "5/5 ⚡ (unstoppable when unleashed)",
+        "Shooting": "4/5 (clinical or catastrophic, no in-between)",
+        "Passing": "2/5 (when he remembers teammates exist)",
+        "Dribbling": "2/5 (just runs through walls)",
+        "Defending": "1/5 (only defends his ego)",
+        "Physical": "5/5 (tank status certified)",
+        "Discipline": "0/5 (red card merchant)"
+      },
+      "personality": "A powerhouse striker built like a freight train — fast, strong, and furious. Feeds off Jan's passes but occasionally forgets passing exists. Complains, scores, rages — repeat.",
+      "signature": "The rage-induced power shot that either obliterates the net or the living room"
+    },
+    {
+      "id": 3,
+      "gamertag": "Patty Skjæveland",
+      "realName": "Patrick",
+      "position": "LB",
+      "jerseyNumber": 7,
+      "avatar": "patty",
+      "slogan": "The Whip King ⚡",
+      "knownFor": "Legendary whipped crosses from 2023 that he won't shut up about",
+      "funnyStats": {
+        "Pace": "4/5 (short legs, big dreams)",
+        "Dribbling": "2/5 (depends on the Wi-Fi and the moon phase)",
+        "Passing": "3/5 (still chasing that 2023 form)",
+        "Shooting": "3/5 (bullshit goals only)",
+        "Defending": "1/5 (you're on your own)",
+        "Physical": "1/5 (gets bullied by the wind)",
+        "Flair": "4/5 (believes every touch is a highlight)"
+      },
+      "personality": "A tiny winger with the heart of Mbappé but the strength of a breadstick. Either dribbles like Messi or like a Roomba. Passes when he shouldn't, ignores when he should, and every goal he scores defies physics. Shouts 'THAT'S MINE' before every lost header.",
+      "signature": "The gravity-defying bullshit goal from impossible angles"
+    },
+    {
+      "id": 4,
+      "gamertag": "Obamna",
+      "realName": "Obamna",
+      "position": "CB",
+      "jerseyNumber": 6,
+      "avatar": "obamna",
+      "slogan": "The Rodri of Wish 🧊",
+      "knownFor": "Building tiki-taka until one risky ping sends Fortza into a meltdown",
+      "funnyStats": {
+        "Passing": "4/5 (short passes supreme, long ones questionable)",
+        "Defending": "3/5 (good until he forgets he's defending)",
+        "Physical": "5/5 (built like a fridge)",
+        "Dribbling": "2/5 (steady, until panic mode hits)",
+        "Shooting": "1/5 (not his department)",
+        "Composure": "2/5 (Fortza yells = immediate choke)",
+        "Team Spirit": "5/5 (there through wins, losses, and lag spikes)"
+      },
+      "personality": "Man City fan to the bone and the self-proclaimed Rodri regen. A rock-solid CDM who builds tiki-taka like it's the Champions League final — until he loses it. Loves a risky pinged pass just a little too much, but when the team's winning, he's cooking. Always ready to take the blame.",
+      "signature": "The risky ping that either starts a counterattack or gifts the opponent a goal"
+    },
+    {
+      "id": 5,
+      "gamertag": "Tekky Mafioso",
+      "realName": "Unknown",
+      "position": "LW",
+      "jerseyNumber": 11,
+      "avatar": "tekky",
+      "slogan": "The Tekky Mafioso 🇮🇪",
+      "knownFor": "Poetic insults and longshot merchant energy",
+      "funnyStats": {
+        "Passing": "5/5 (calls out good passes like gospel)",
+        "Dribbling": "4/5 (techy and terrifying)",
+        "Shooting": "3/5 (longshots only, otherwise nah)",
+        "Flair": "4/5 (he's got that swagger)",
+        "Composure": "2/5 (Irish rage buff active)",
+        "Physical": "2/5 (built for finesse, not fights)",
+        "Leadership": "5/5 (his presence alone motivates... or terrifies)"
+      },
+      "personality": "The silky winger with mafia energy and a PhD in passing praise. A longshot merchant who talks like a FIFA commentator mid-match — especially when he screws it up himself. His dribbling's smooth, his passing divine, and his insults are poetic. Once part of the legendary Scawwy Lads trio with Jan and Cama, he still carries that prime aura — and that temper.",
+      "signature": "The top bins longshot while screaming poetic Irish curses"
+    },
+    {
+      "id": 6,
+      "gamertag": "Irish IGL",
+      "realName": "Unknown",
+      "position": "CDM",
+      "jerseyNumber": 4,
+      "avatar": "igl",
+      "slogan": "The Irish IGL 🎤",
+      "knownFor": "'KEEP UP THE PRESS!' echoing even when offline",
+      "funnyStats": {
+        "Passing": "4/5 (quarterback vision unlocked)",
+        "Defending": "3/5 (depends on how loud he's shouting)",
+        "Physical": "4/5 (captain's presence alone)",
+        "Composure": "5/5 (cool under fire, sometimes literally)",
+        "Dribbling": "2/5 (focuses on tactics, not TikToks)",
+        "Shooting": "1/5 (that's Hank's job)",
+        "Leadership": "5/5 (commands respect even in absence)"
+      },
+      "personality": "A commanding CDM and the squad's unofficial manager, motivator, and occasional myth. Loves a pinged over-the-top through ball and runs the midfield like a drill sergeant — until he forgets to run for himself. When he's present, the team flows. When he's missing… it's chaos.",
+      "signature": "The over-the-top through ball with 'KEEP UP THE PRESS!' voice crack"
+    },
+    {
+      "id": 7,
+      "gamertag": "Spidey",
+      "realName": "Emy",
+      "position": "CDM",
+      "jerseyNumber": 8,
+      "avatar": "spidey",
+      "slogan": "The Wing Wonder 🕸️",
+      "knownFor": "Occasionally forgetting which side of the pitch she's on",
+      "funnyStats": {
+        "Pace": "4/5 (spidey-sense speed)",
+        "Dribbling": "3/5 (swinging through defenders when it works)",
+        "Passing": "4/5 (crosses and short plays on point)",
+        "Shooting": "2/5 (depends on mood, moon, and momentum)",
+        "Flair": "4/5 (style over stats)",
+        "Awareness": "2/5 (left or right wing? who knows)",
+        "Vibes": "5/5 (instant team morale boost)"
+      },
+      "personality": "A returning FIFA veteran who never lost the sauce. When she's locked in, crosses are pinpoint and passes are buttery smooth. Her character Spidey moves fast, talks in third person, and brings pure vibes to the VC. Goals? Optional. Energy? Mandatory.",
+      "signature": "The pinpoint cross from the wrong wing"
+    },
+    {
+      "id": 8,
+      "gamertag": "Six",
+      "realName": "Six",
+      "position": "RW",
+      "jerseyNumber": 6,
+      "avatar": "six",
+      "slogan": "The Offside Prophet 🚩",
+      "knownFor": "Permanently residing in an offside position",
+      "funnyStats": {
+        "Pace": "3/5 (fast when he remembers to sprint)",
+        "Shooting": "2/5 (you'll never see it coming — neither will he)",
+        "Dribbling": "1/5 (pure chaos energy)",
+        "Passing": "2/5 (aims for teammates... sometimes)",
+        "Positioning": "0/5 (born offside)",
+        "Composure": "1/5 (button panic mode active)",
+        "Potential": "5/5 (the prodigy arc is loading…)"
+      },
+      "personality": "The team's lovable noob. Still learning the controls, occasionally forgets which button shoots, and permanently resides in an offside position. But every now and then, out of nowhere — he scores. Nobody knows how, not even him. Brings confusion, comedy, and the occasional miracle finish.",
+      "signature": "The accidental banger from an offside position that somehow counts"
+    },
+    {
+      "id": 9,
+      "gamertag": "Tuva",
+      "realName": "TBD",
+      "position": "GK",
+      "jerseyNumber": 1,
+      "avatar": "tuva",
+      "slogan": "Placeholder Keeper",
+      "knownFor": "TBD",
+      "funnyStats": {
+        "Reflexes": "TBD",
+        "Positioning": "TBD",
+        "Distribution": "TBD"
+      },
+      "personality": "Placeholder profile - stats and personality coming soon.",
+      "signature": "TBD"
+    },
+    {
+      "id": 10,
+      "gamertag": "Ratty",
+      "realName": "TBD",
+      "position": "CB",
+      "jerseyNumber": 5,
+      "avatar": "ratty",
+      "slogan": "Placeholder Defender",
+      "knownFor": "TBD",
+      "funnyStats": {
+        "Defending": "TBD",
+        "Physical": "TBD",
+        "Composure": "TBD"
+      },
+      "personality": "Placeholder profile - stats and personality coming soon.",
+      "signature": "TBD"
+    },
+    {
+      "id": 11,
+      "gamertag": "p1ksel",
+      "realName": "TBD",
+      "position": "RB",
+      "jerseyNumber": 2,
+      "avatar": "p1ksel",
+      "slogan": "Placeholder Fullback",
+      "knownFor": "TBD",
+      "funnyStats": {
+        "Pace": "TBD",
+        "Defending": "TBD",
+        "Crossing": "TBD"
+      },
+      "personality": "Placeholder profile - stats and personality coming soon.",
+      "signature": "TBD"
+    }
+  ],
+  "formation": {
+    "name": "4-2-3-1",
+    "positions": [
+      { "position": "ST", "playerId": 2, "x": 50, "y": 10 },
+      { "position": "LW", "playerId": 5, "x": 20, "y": 30 },
+      { "position": "CAM", "playerId": 1, "x": 50, "y": 30 },
+      { "position": "RW", "playerId": 8, "x": 80, "y": 30 },
+      { "position": "CDM", "playerId": 7, "x": 40, "y": 55 },
+      { "position": "CDM", "playerId": 6, "x": 60, "y": 55 },
+      { "position": "LB", "playerId": 3, "x": 15, "y": 75 },
+      { "position": "CB", "playerId": 4, "x": 38, "y": 80 },
+      { "position": "CB", "playerId": 10, "x": 62, "y": 80 },
+      { "position": "RB", "playerId": 11, "x": 85, "y": 75 },
+      { "position": "GK", "playerId": 9, "x": 50, "y": 95 }
+    ]
+  }
+}

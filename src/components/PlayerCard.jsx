@@ -1,0 +1,48 @@
+import React from 'react';
+
+const PlayerCard = ({ player, onClick }) => {
+  return (
+    <div
+      onClick={onClick}
+      className="relative cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-2 hover:rotate-3 group"
+    >
+      {/* Player Card */}
+      <div className="w-24 h-32 bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-lg shadow-xl border-2 border-emerald-400 flex flex-col items-center justify-center p-2 transform transition-all group-hover:shadow-2xl group-hover:border-yellow-400">
+        
+        {/* Jersey Number */}
+        <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center font-bold text-emerald-900 shadow-lg border-2 border-white">
+          {player.jerseyNumber}
+        </div>
+
+        {/* Avatar */}
+        <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-white shadow-md mb-1">
+          <img 
+            src={player.avatar} 
+            alt={player.gamertag}
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Gamertag */}
+        <div className="text-white font-bold text-xs text-center truncate w-full">
+          {player.gamertag}
+        </div>
+
+        {/* Position */}
+        <div className="text-yellow-300 font-semibold text-[10px]">
+          {player.position}
+        </div>
+
+        {/* Known For - appears on hover */}
+        <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 w-40 bg-gray-900 text-white text-xs p-2 rounded-lg shadow-xl text-center z-10 pointer-events-none">
+          <div className="font-semibold text-yellow-400 mb-1">Known for:</div>
+          <div className="italic">{player.knownFor}</div>
+          {/* Arrow pointing up */}
+          <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-4 border-transparent border-b-gray-900"></div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PlayerCard;
