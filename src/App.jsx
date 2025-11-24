@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PlayerCard from './components/PlayerCard';
 import PlayerModal from './components/PlayerModal';
+import NewsTicker from './components/NewsTicker';
 import playersData from './players.json';
 import avatars from './assets/avatars/avatars';
 import logo from './assets/avatars/Scawwy_Lads.jpg';
@@ -53,6 +54,9 @@ function App() {
           Click on a player to see their hilarious profile
         </p>
       </div>
+
+      {/* News Ticker */}
+      <NewsTicker />
 
       {/* Formation Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-8">
