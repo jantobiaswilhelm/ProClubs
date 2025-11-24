@@ -25,7 +25,7 @@ const PlayerCard = ({ player, onClick }) => {
 
         {/* Nickname */}
         <div className="text-white font-bold text-xs text-center truncate w-full">
-          {player.nickname || player.gamertag}
+          {player.realName}
         </div>
 
         {/* Position */}
