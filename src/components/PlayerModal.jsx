@@ -41,7 +41,7 @@ const PlayerModal = ({ player, onClose }) => {
                 </span>
               </div>
               <div className="text-yellow-300 text-xl font-semibold mb-2">
-                {player.position} • {player.realName}
+                {player.position} • {player.realName} {player.nickname && <span className="text-gray-300">"{player.nickname}"</span>}
               </div>
               <div className="text-gray-300 italic text-lg border-l-4 border-yellow-400 pl-3">
                 "{player.slogan}"
