@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PlayerCard from './components/PlayerCard';
 import PlayerModal from './components/PlayerModal';
 import NewsTicker from './components/NewsTicker';
+import QuotesWall from './components/QuotesWall';
 import playersData from './players.json';
 import avatars from './assets/avatars/avatars';
 import logo from './assets/avatars/Scawwy_Lads.jpg';
@@ -110,6 +111,9 @@ function App() {
             ))}
           </div>
         </div>
+
+        {/* Quotes Wall */}
+        <QuotesWall />
       </div>
 
       {/* Player Modal */}
