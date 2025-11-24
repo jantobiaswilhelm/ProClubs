@@ -4,7 +4,8 @@ import PlayerModal from './components/PlayerModal';
 import NewsTicker from './components/NewsTicker';
 import playersData from './players.json';
 import avatars from './assets/avatars/avatars';
-import logo from './assets/avatars/Scawwy_Lads.jpg';
+import playerCards from './assets/avatars/playerCards';
+import logo from './assets/avatars/Scawwy_Lads.png';
 
 function App() {
   const [selectedPlayer, setSelectedPlayer] = useState(null);
@@ -13,17 +14,19 @@ function App() {
     const player = playersData.players.find(p => p.id === id);
     if (!player) return null;
     
-    // Map avatar key to imported image
+    // Map avatar key to imported image (for modal) and cardImage (for field display)
     return {
       ...player,
-      avatar: avatars[player.avatar] || avatars.placeholder
+      avatar: avatars[player.avatar] || avatars.placeholder,
+      cardImage: playerCards[player.avatar] || playerCards.placeholder
     };
   };
 
-  // Get all players with resolved avatars for the legend
+  // Get all players with resolved avatars and card images
   const playersWithAvatars = playersData.players.map(player => ({
     ...player,
-    avatar: avatars[player.avatar] || avatars.placeholder
+    avatar: avatars[player.avatar] || avatars.placeholder,
+    cardImage: playerCards[player.avatar] || playerCards.placeholder
   }));
 
   return (
@@ -41,7 +44,7 @@ function App() {
           <img 
             src={logo} 
             alt="Scawwy Lad FC Logo" 
-            className="w-20 h-20 object-contain drop-shadow-2xl"
+            className="w-32 h-32 object-contain drop-shadow-2xl"
           />
           <h1 className="text-6xl font-bold text-white drop-shadow-2xl">
             Scawwy Lads FC
@@ -60,7 +63,7 @@ function App() {
 
       {/* Formation Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-8">
-        <div className="relative w-full h-[800px] bg-green-600 bg-opacity-30 rounded-3xl border-4 border-white shadow-2xl overflow-hidden">
+        <div className="relative w-full h-[900px] bg-green-600 bg-opacity-30 rounded-3xl border-4 border-white shadow-2xl overflow-hidden">
           
           {/* Center Circle */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 border-4 border-white rounded-full opacity-30"></div>

@@ -1,4 +1,4 @@
-// Import all player avatars
+// Import all player avatars (for modal display)
 import jan from './jan.png';
 import hank from './hank.jpg';
 import patty from './Patty.png';

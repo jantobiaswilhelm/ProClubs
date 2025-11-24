@@ -241,7 +241,7 @@
       { "position": "CB", "playerId": 4, "x": 38, "y": 80 },
       { "position": "CB", "playerId": 10, "x": 62, "y": 80 },
       { "position": "RB", "playerId": 11, "x": 85, "y": 75 },
-      { "position": "GK", "playerId": 9, "x": 50, "y": 95 }
+      { "position": "GK", "playerId": 9, "x": 50, "y": 93 }
     ]
   }
 }
